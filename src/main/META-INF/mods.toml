@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="MIT"
+
+[[mods]]
+modId="cave_crawler"
+version="1.6.5"
+displayName="Cave Crawler"
+authors="Flamc04, qwmike1145"
+description='''Fork of the Cave Crawler mod for 1.19.3'''
+
+[[dependencies.cave_crawler]]
+   modId="forge"
+   mandatory=true
+   versionRange="[44,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.cave_crawler]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.19.3,1.20)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.cave_crawler]]
+   modId="geckolib"
+   mandatory=true
+   versionRange="[4.0.6,)"
+   ordering="AFTER"
+   side="BOTH"
+
